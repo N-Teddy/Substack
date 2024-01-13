@@ -98,10 +98,12 @@ Box Model
 	display: flex;
 	overflow-x: scroll;
 	overflow-y: hidden;
+	border-bottom: 1.5px solid gray;
 }
 
 .main_ul::-webkit-scrollbar {
 	visibility: hidden;
+	display: none;
 }
 
 .main_ul li {
@@ -109,7 +111,6 @@ Box Model
 	display: inline-block;
 	width: max-content;
 	height: 100%;
-	margin: 2px;
 	padding: 20px;
 }
 
@@ -288,13 +289,9 @@ complex drop down
 	height: 48px;
 	color: white;
 	display: inline-block;
+	border: none;
 } 
 
-.btn a {
-	text-decoration: none;
-	color: white;
-	display: block;
-}
 
 
 /* 
@@ -342,8 +339,9 @@ hero
 
 .hero_btn_2 {
 	width: 192px;
-	background-color: black;
+	background-color: transparent;
 	border-radius: 12px;
+	border: 1.5px solid white;
 }
 
 

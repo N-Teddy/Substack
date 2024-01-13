@@ -167,6 +167,7 @@ main {
 }
 
 
+
 .main_row {
 	background-color: tomato;
 	width: 100%;
@@ -200,7 +201,7 @@ main {
 
 .main_head {
 	width: 280px;
-	height: max-content;
+	height: 100%;
 	background-color: aqua;
 }
 
