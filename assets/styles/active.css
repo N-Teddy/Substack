@@ -1,0 +1,49 @@
+ 
+ .btn:hover {
+    cursor: pointer;
+ }
+
+/* 
+===================================================================================================
+header
+=================================================================================================== 
+*/
+
+/* nav left */
+
+.header_logo:hover {
+    cursor: pointer;
+}
+
+header span:hover {
+    cursor: pointer;
+} 
+
+.search {
+    color: white;
+}
+
+/*  */
+.header_left_nav input:checked ~ .drop_click {
+    color: rgba(128, 128, 128, 0.7);
+}
+
+.header_left_nav .drop_menu li:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+/* nav right */
+
+.head_btn_1 a:focus {
+    color: gray;
+	background-color: hsl(20, 100%, 55%, 0);
+	border-radius: 6px;
+}
+
+.head_btn_2 a:focus {
+    color: rgb(128, 128, 128, 0.15);
+    background-color: transparent;
+	border-radius: 6px;
+    border: 1px solid rgb(128, 128, 128, 0.15);
+}

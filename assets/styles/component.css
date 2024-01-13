@@ -1,0 +1,418 @@
+/* 
+==================================================================================
+==================================================================================
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+==================================================================================
+==================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+==================================================================================
+==================================================================================
+Box Model
+==================================================================================
+==================================================================================
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/* File Content
+==================================================================================
+==================================================================================
+# Components
+  – button
+  – nav
+  - dropdowns
+  - list
+==================================================================================
+==================================================================================
+*/
+
+
+/* 
+==================================================================================
+==================================================================================
+  - list
+==================================================================================
+==================================================================================
+*/
+
+.main_ul {
+	background-color: whitesmoke;
+	display: inline-block;
+	width: 100%;
+	height: 65px;
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.main_ul::-webkit-scrollbar {
+	visibility: hidden;
+}
+
+.main_ul li {
+	flex-shrink: 0;
+	display: inline-block;
+	width: max-content;
+	height: 100%;
+	margin: 2px;
+	padding: 20px;
+}
+
+.footer_right li {
+	background-color: bisque;
+	width: 100%;
+	height: 24px;
+	margin-bottom: 10px;
+}
+
+
+/* 
+==================================================================================
+==================================================================================
+  - nav
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
+header nav
+==================================================================================
+*/
+
+.header_nav {
+	background-color: wheat;
+	width: 100%;
+	padding: 0 15px;
+	height: 72px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_left_nav {
+	background-color: springgreen;
+	width: 349px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-shrink: 0;
+}
+
+.header_right_nav {
+	background-color: springgreen;
+	width: /*475px*/ auto;
+	height: 40px;
+	display: flex;
+	/* justify-content: space-between; */
+	gap: 15px;
+	flex-shrink: 0;
+}
+
+/* 
+==================================================================================
+footer nav
+==================================================================================
+*/
+
+.footer_right nav {
+	background-color: #ff6719;
+	width: 152px;
+	height: 489px;
+}
+
+/* 
+==================================================================================
+==================================================================================
+  - drop down
+==================================================================================
+==================================================================================
+*/
+
+/*
+==================================================================================
+  - header
+==================================================================================
+*/
+
+.header_left_nav .drop_click {
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+	font-weight: 500;
+	line-height: 40px;
+	flex-shrink: 0;
+}
+
+.header_left_nav label {
+	display: inline-block;
+	height: 40px;
+	padding: 0 5px;
+	position: relative;
+}
+.header_left_nav .drop_menu {
+	display: none;
+	background-color: white;
+	width: 211px;
+	padding: 8px;
+	border-radius: 12px;
+	position: absolute;
+}
+
+.header_left_nav .drop_menu li {
+	background-color: white;
+	width: 100%;
+	height: 44px;
+	padding: 0 16px;
+	line-height: 44px;
+	margin: 1px;
+	border-radius: 6px;
+}
+
+.header_left_nav input:checked ~ .drop_menu {
+	display: block;
+}
+/* 
+complex drop down
+*/
+/* .label_1:has(> input:checked) ~ .label_2 input:checked ~ .drop_menu,
+.label_1:has(> input:checked) ~ .label_3 input:checked ~ .drop_menu
+{
+	display: none;
+} */
+
+
+/* .header_left_nav:has(.label_3 input:checked) .label_1 input:checked ~ .drop_menu,
+.header_left_nav:has(.label_3 input:checked) .label_2 input:checked ~ .drop_menu
+{
+	display: none;
+	pointer-events: none;
+}
+
+.header_left_nav:has(.label_2 input:checked) .label_1 input:checked ~ .drop_menu,
+.header_left_nav:has(.label_2 input:checked) .label_3 input:checked ~ .drop_menu
+{
+	display: none;
+	pointer-events: none;
+}
+
+.header_left_nav:has(.label_1 input:checked) .label_2 input:checked ~ .drop_menu,
+.header_left_nav:has(.label_1 input:checked) .label_3 input:checked ~ .drop_menu
+{
+	display: none;
+} */
+
+/*
+==================================================================================
+  - experience
+==================================================================================
+*/
+
+.experience_main input:checked ~ h5 {
+	display: none;
+}
+
+.experience input {
+	display: none;
+}
+
+
+/* 
+==================================================================================
+==================================================================================
+  - button
+==================================================================================
+==================================================================================
+*/
+
+.btn {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 48px;
+	text-align: center;
+	height: 48px;
+	color: white;
+	display: inline-block;
+} 
+
+.btn a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+
+/* 
+==================================================================================
+header
+==================================================================================
+*/
+
+.head_btn_1 {
+	width: 108px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(255, 103, 25);
+	border-radius: 6px;
+}
+
+.head_btn_2 {
+	width: 85px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 6px;
+	border: 1px solid white;
+}
+
+
+/* 
+==================================================================================
+hero
+==================================================================================
+*/
+
+.hero_btn_cont {
+	display: flex;
+	gap: 10px;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+.hero_btn_1 {
+	width: 180px;
+	background-color: #ff6719;
+	border-radius: 12px;
+}
+
+.hero_btn_2 {
+	width: 192px;
+	background-color: black;
+	border-radius: 12px;
+}
+
+
+/* 
+==================================================================================
+main
+==================================================================================
+*/
+
+.main_btn {
+	width: 239px;
+	background-color: #ff6719;
+	border-radius: 12px;
+	margin: 0 auto;
+}
+
+/* 
+==================================================================================
+experience
+==================================================================================
+*/
+
+.experience_btn {
+	width: 180px;
+	background-color: #ff6719;
+	border-radius: 12px;
+}
+
+/* 
+==================================================================================
+testimonial
+==================================================================================
+*/
+
+.testimonial_btn {
+	width: 192px;
+	background-color: #ff6719;
+	border-radius: 12px;
+}
+
+/* 
+==================================================================================
+start
+==================================================================================
+*/
+
+.start_btn {
+	width: 192px;
+	background-color: #ff6719;
+	border-radius: 12px;
+}
+
+/* 
+==================================================================================
+==================================================================================
+  - search
+==================================================================================
+==================================================================================
+*/
+
+.search input {
+	color: white;
+	width: 255px;
+	height: 40px;
+	border-radius: 6px;
+}
+
+.search input ::placeholder {
+	font-size: 14px;
+	line-height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,288 @@
+/* 
+==================================================================================
+==================================================================================
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+==================================================================================
+==================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+==================================================================================
+==================================================================================
+Box Model
+==================================================================================
+==================================================================================
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/* File Content
+==================================================================================
+==================================================================================
+# Modules
+  – header
+  – footer
+  - main
+==================================================================================
+==================================================================================
+*/
+
+
+/*
+=================================================================================
+=================================================================================
+  header
+=================================================================================
+=================================================================================
+*/
+
+header {
+	background-color: yellowgreen;
+	width: 100%;
+	height: 780px;
+}
+
+.header_btm {
+	width: 100%;
+	height: 708px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.header_main {
+	background-color: springgreen;
+	width: 550px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	gap: 30px;
+}
+
+/*
+=================================================================================
+=================================================================================
+  – main
+=================================================================================
+=================================================================================
+*/
+
+main {
+	background-color: darkslategray;
+	width: 100%;
+	height: /*1255.6px*/ auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main_cont {
+	background-color: yellowgreen;
+	width: 92%;
+	margin: 100px 0;
+	height: /*1051px*/max-content;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.main_pre {
+	background-color: teal;
+	width: 100%;
+	height: auto;
+}
+
+.main_body {
+	background-color: wheat;
+	width: 100%;
+	height: /*605px*/ auto;
+	display: flex;
+	gap: 1px;
+	overflow-x: hidden;
+}
+
+.main_body_cont {
+	background-color: chocolate;
+	width: /*1162.26px*/ 100%;
+	height: /*605px*/ auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 56px;
+	flex-shrink: 0;	
+}
+
+
+.main_row {
+	background-color: tomato;
+	width: 100%;
+	height: max-content;
+	display: flex;
+	gap: 20px;
+}
+
+.num {
+	background-color: thistle;
+	width: 78px;
+	height: 64px;
+	flex-shrink: 0;
+}
+
+.main_col2 {
+	background-color: teal;
+	width: 376px;
+	height: auto;
+	display: flex;
+	gap: 32px;
+	flex-shrink: 0;
+}
+
+.main_img {
+	width: 64px;
+	height: 64px;
+	background-color: yellow;
+	border-radius: 6px;
+}
+
+.main_head {
+	width: 280px;
+	height: max-content;
+	background-color: aqua;
+}
+
+.main_col3 {
+	background-color: tan;
+	width: 57.3%;
+	height: auto;
+}
+
+/*
+=================================================================================
+=================================================================================
+  – footer
+=================================================================================
+=================================================================================
+*/
+
+footer {
+	background-color: yellowgreen;
+	width: 100%;
+	height: 706px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_cont {
+	background-color: yellow ;
+	width: /*89.1%*/ 1125.62px;
+	height: /*529px*/ auto;
+}
+
+.footer_head {
+	background-color: teal;
+	width: 100%;
+	height: 489px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_left {
+	background-color: gray;
+	width: 256px;
+	height: /*489px*/ auto;
+}
+
+.footer_logo {
+	background-color: antiquewhite;
+	width: 21px;
+	height: 24px;
+}
+
+.footer_right {
+	background-color: wheat;
+	width: 812px;
+	height: 489.5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_btm {
+	background-color: thistle;
+	width: 100%;
+	height: 88px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_btm div:first-of-type {
+	background-color: violet;
+	width: 283px;
+	height: 43px;
+}
+
+.footer_btm div:first-of-type span {
+	display: inline-block;
+	background-color: teal;
+	width: 134px;
+	height: 43px;
+	border-radius: 12px;
+}
+
+
+

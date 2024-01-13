@@ -1,0 +1,256 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 650px) {
+
+    /* 
+    ==================================================================================
+    header  
+    ==================================================================================
+    */
+
+    .header_left_nav {
+        width: auto;
+    }
+    
+    .header_left_nav label {
+        display: none;
+    }
+    
+    .hero_btn_cont {
+        flex-direction: column;
+    }
+
+    .hero_btn_1 {
+        width: 192px;
+    }
+
+    /* 
+    ==================================================================================
+    main  
+    ==================================================================================
+    */
+
+    main {
+        height: auto;
+    }
+
+    .main_cont {
+        height: auto;
+        margin: 100px;
+    }
+
+    .main_body {
+        height: auto;
+    }
+
+    .main_body_cont {
+        height: auto;
+    }
+
+    .num {
+        display: none;
+    }
+
+    .main_col2 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .main_row {
+        flex-direction: column;
+
+    }
+
+    .main_col3 {
+        width: 100%;
+    }
+
+    /* 
+    ==================================================================================
+    culture  
+    ==================================================================================
+    */
+
+    .culture_head h2 p {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .culture_body {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .culture_main {
+        height: auto;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .culture_img {
+        width: 320px;
+        height: 266px;
+        margin: 0 auto;
+    }
+
+    .culture_left {
+        width: 100%;
+    }
+
+    /* 
+    ==================================================================================
+    experience 
+    ==================================================================================
+    */
+
+    .experience {
+        height: auto;
+        width: 100%;
+    }
+
+    .experience_cont {
+        width: 602px;
+    }
+
+    .experience_head h2 p {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .experience_body {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .experience_left {
+        gap: 40px;
+    }
+
+    .experience_sub {
+        width: 100%;
+    }
+
+    /* 
+    ==================================================================================
+    testimonial
+    ==================================================================================
+    */
+
+    .testimony_cont {
+        height: auto;
+    }
+
+    /* 
+    ==================================================================================
+    basics
+    ==================================================================================
+    */
+
+    .basics {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .basics_cont {
+        width: 97%;
+        height: auto;
+    }
+
+    .basics_body {
+        height: auto;
+        gap: 70px;
+    }
+
+    .basics_main {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .basic_quest,
+    .basic_ans {
+        width: 100%;
+    }
+
+    /* 
+    ==================================================================================
+    start
+    ==================================================================================
+    */
+
+    .start {
+        height: auto;
+    }
+
+    .start_cont {
+        width: 85%;
+        height: auto;
+        margin: 80px;
+        gap: 40px;
+    }
+
+    .start_cont h2 p {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    /* 
+    ==================================================================================
+    footer
+    ==================================================================================
+    */
+
+    footer {
+        height: auto;
+    }
+
+    .footer_cont {
+        height: auto;
+        padding: 70px 10px;
+    }
+
+    .footer_head {
+        height: auto;
+    }
+
+    .footer_right {
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_right nav {
+        width: auto;
+        height: auto;
+    }
+
+    .footer_right li {
+        height: 24px;
+        width: max-content;
+    }
+
+    .footer_btm {
+        height: auto;
+        padding: 10px 0;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .footer_btm div:first-of-type {
+        height: auto;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .footer_btm div:first-of-type span {
+        display: inline-block;
+    }
+
+    .footer_btm small {
+        display: block;
+        padding: 5px 0;
+    }
+
+}

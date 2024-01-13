@@ -1,0 +1,378 @@
+/* 
+==================================================================================
+==================================================================================
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+==================================================================================
+==================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+==================================================================================
+==================================================================================
+Box Model
+==================================================================================
+==================================================================================
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/* File Content
+=================================================================================
+=================================================================================
+# Base
+  – normalize
+  – layout
+  – typography
+=================================================================================
+=================================================================================
+*/
+
+
+/*
+=================================================================================
+=================================================================================
+=================================================================================
+  – layout
+=================================================================================
+=================================================================================
+=================================================================================
+*/
+
+
+
+
+
+/*
+=================================================================================
+=================================================================================
+  – main
+=================================================================================
+=================================================================================
+*/
+
+
+
+
+/*
+=================================================================================
+=================================================================================
+  – culture
+=================================================================================
+=================================================================================
+*/
+
+.culture {
+	background-color: yellowgreen;
+	width: 100%;
+	height: 1765px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.culture_cont {
+	background-color: yellow;
+	width: 92%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.culture_head {
+	background-color: whitesmoke;
+	width: 100%;
+	height: auto;
+}
+
+.culture_body {
+	background-color: wheat;
+	width: 100%;
+	height: 1416px;
+}
+
+.culture_main {
+	background-color: violet;
+	width: 100%;
+	height: 472px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.culture_img {
+	background-color: turquoise;
+	width: 49%;
+	height: inherit;
+}
+
+.culture_left {
+	background-color: tomato;
+	width: 49%;
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+
+.culture_text {
+	background-color: teal;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/*
+=================================================================================
+=================================================================================
+  – experience
+=================================================================================
+=================================================================================
+*/
+
+.experience {
+	background-color: teal;
+	width: 100%;
+	height: 1109px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* overflow-x: hidden; */
+}
+
+.experience_cont {
+	background-color: red;
+	width: 94%;
+	height: /*869px*/ auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.experience_head {
+	background-color: steelblue;
+	width: 100%;
+	height: auto;
+}
+
+.experience_body {
+	background-color: snow;
+	width: 989px /*85.55%*/;
+	height: 760px;
+	display: flex;
+	gap: 80px;
+	margin: 0 auto;
+}
+
+.experience_left {
+	background-color: yellowgreen;
+	width: auto;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.experience_img {
+	background-color: slateblue;
+	width: 439px;
+	height: 680px;
+}
+
+.experience_sub {
+	background-color: springgreen;
+	width: 470px;
+	height: 85.5%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.experience_main {
+	background-color: slateblue;
+	width: 100%;
+	height: /*245.79px*/ auto;
+	margin: 2px;
+	padding: 32px 0 32px 65px;
+}
+
+
+
+
+/*
+=================================================================================
+=================================================================================
+  – testimony
+=================================================================================
+=================================================================================
+*/
+
+.testimony {
+	background-color: thistle;
+	width: 100%;
+	height: 563px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimony_cont {
+	background-color: teal;
+	width: /*71.8%*/  907.073px;
+	height: 323px;
+	display: grid;
+	place-items: center;
+	flex-shrink: 0;
+}
+
+
+
+
+/*
+=================================================================================
+=================================================================================
+  – basics
+=================================================================================
+=================================================================================
+*/
+
+.basics {
+	background-color: yellowgreen;
+	width: 100%;
+	height: 1130.26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.basics_cont {
+	background-color: yellow;
+	width: 960px;
+	height: 890.3px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 80px;
+	justify-content: center;
+}
+
+.basics_head {
+	background-color: whitesmoke;
+	height: 69px;
+}
+
+.basics_body {
+	background-color: wheat;
+	width: 100%;
+	height: 742px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.basics_main {
+	background-color: violet;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* .nine_two {
+	background-color: tomato;
+	height: 92px;
+}
+
+.seven_nine {
+	background-color: turquoise;
+	height: 78px;
+} */
+
+.basic_quest {
+	background-color: thistle;
+	width: /*47%*/ 391px;
+	height: 100%;
+}
+
+.basic_ans {
+	background-color: teal;
+	width: 470px;
+	height: auto;
+}
+/*
+=================================================================================
+=================================================================================
+  – start
+=================================================================================
+=================================================================================
+*/
+
+.start {
+	background-color: tomato;
+	width: 100%;
+	height: 388px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.start_cont {
+	background-color: turquoise;
+	width: auto;
+	height: 142px;
+	display: grid;
+	place-items: center;
+	flex-shrink: 0;
+}
+
