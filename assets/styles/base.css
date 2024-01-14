@@ -309,7 +309,7 @@ Box Model
 
 .basics_head {
 	background-color: whitesmoke;
-	height: 69px;
+	height: auto;
 }
 
 .basics_body {

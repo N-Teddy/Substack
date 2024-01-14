@@ -156,6 +156,15 @@
         width: auto;
     }
 
+    .testimony {
+        height: auto;
+    }
+
+    .testimony_cont {
+        height: max-content;
+        margin: 100px 0;
+    }
+
 
 }
 
@@ -208,3 +217,5 @@
     }
 
 }
+
+

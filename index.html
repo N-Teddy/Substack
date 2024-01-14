@@ -9,13 +9,9 @@
     <link rel="stylesheet" href="./assets/styles/component.css">
     <link rel="stylesheet" href="./assets/styles/module.css">
     <link rel="stylesheet" href="./assets/styles/fonts.css">
-    <link rel="stylesheet" href="./assets/styles/responsive/general.css">
-    <link rel="stylesheet" href="./assets/styles/responsive/extra_large.css">
-    <link rel="stylesheet" href="./assets/styles/responsive/large.css">
-    <link rel="stylesheet" href="./assets/styles/responsive/medium.css">
-    <link rel="stylesheet" href="./assets/styles/responsive/snall.css">
-    <link rel="stylesheet" href="./assets/styles/responsive/extra_small.css">
-    <link rel="stylesheet" href="./assets/styles/active.css">
+    <link rel="stylesheet" href="./assets/styles/responsive/media.css">
+    <link rel="stylesheet" href="./assets/styles/responsive/mobile_view.css">
+    <link rel="stylesheet" href="./assets/styles/assets.css">
 </head>
 
 <body>
@@ -30,9 +26,14 @@
         <section class="header_pre">
             <nav class="header_nav">
                 <section class="header_left_nav">
+                    <div class="burger">
+                        <div class="sandwich"></div>
+                        <div class="sandwich"></div>
+                        <div class="sandwich"></div>
+                    </div>
                     <div class="header_logo">logo</div>
                     <label for="drop_click_1" class="label_1">
-                        <input type="checkbox" id="drop_click_1"><span class="drop_click apple_system">Resources</span>
+                        <input type="checkbox" class="head_input" id="drop_click_1"><span class="drop_click apple_system">Resources<i class="fa fa-angle-down" aria-hidden="true"></i></span>
                         <div class="drop_menu" id="drop_menu_1">
                             <ul>
                                 <li>How to start a Substack</li>
@@ -45,7 +46,7 @@
                         </div>
                     </label>
                     <label for="drop_click_2" class="label_2">
-                        <input type="checkbox" id="drop_click_2"><span class="drop_click apple_system">Writers</span>
+                        <input type="checkbox" class="head_input" id="drop_click_2"><span class="drop_click apple_system">Writers</span>
                         <div class="drop_menu" id="drop_menu_2">
                             <ul>
                                 <li>Switch to Substack</li>
@@ -62,7 +63,7 @@
                         </div>
                     </label>
                     <label for="drop_click_3" class="label_3">
-                        <input type="checkbox" id="drop_click_3"><span class="drop_click apple_system">Readers</span>
+                        <input type="checkbox" class="head_input" id="drop_click_3"><span class="drop_click apple_system">Readers</span>
                         <div class="drop_menu" id="drop_menu_3">
                             <ul>
                                 <li>Substack App</li>
@@ -118,38 +119,224 @@
                 </h2>
             </div>
             <ul class="main_ul">
-                <input type="radio" id="scroll_1">
-                <label for="scroll_1"><li><a href="#scroll_1">Featured</a></li></label>
+                <a href="#scroll_1">
+                    <input type="radio" name="main" id="scroll_1" value="Featured" />
+                    <label for="scroll_1">
+                        <li>Featured</li>
+                    </label>
+                </a>
                 <!--  -->
-                <li><a href="#scroll_2">Culture</a></li>
-                <li><a href="#scroll_3">Technology</a></li>
-                <li><a href="#scroll_4">Business</a></li>
-                <li><a href="#scroll_5">Finance</a></li>
-                <li><a href="#scroll_6">Food & Drink</a></li>
-                <li><a href="#scroll_7">Podcasts</a></li>
-                <li><a href="#scroll_8">Sports</a></li>
-                <li><a href="#scroll_9">Art & Illustration</a></li>
-                <li><a href="#scroll_10">World Politics</a></li>
-                <li><a href="#scroll_12">Health Politics</a></li>
-                <li><a href="#scroll_13">News</a></li>
-                <li><a href="#scroll_14">Fashion & Beauty</a></li>
-                <li><a href="#scroll_15">Music</a></li>
-                <li><a href="#scroll_16">Faith & Spirituality</a></li>
-                <li><a href="#scroll_17">Climate & Environment</a></li>
-                <li><a href="#scroll_18">Science</a></li>
-                <li><a href="#scroll_19">Literature</a></li>
-                <li><a href="#scroll_20">Fiction</a></li>
-                <li><a href="#scroll_21">Health & Wellness</a></li>
-                <li><a href="#scroll_22">Design</a></li>
-                <li><a href="#scroll_23">Travel</a></li>
-                <li><a href="#scroll_24">Parenting</a></li>
-                <li><a href="#scroll_25">Philosophy</a></li>
-                <li><a href="#scroll_26">Comics</a></li>
-                <li><a href="#scroll_27">International</a></li>
-                <li><a href="#scroll_28">Crypto</a></li>
-                <li><a href="#scroll_29">History</a></li>
-                <li><a href="#scroll_30">Humor</a></li>
-                <li><a href="#scroll_31">Education</a></li>
+                <a href="#scroll_2">
+                    <input type="radio" name="main" id="scroll_2" value="" />
+                    <label for="scroll_2">
+                        <li>Culture</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_3">
+                    <input type="radio" name="main" id="scroll_3" value="" />
+                    <label for="scroll_3">
+                        <li>Technology</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_4">
+                    <input type="radio" name="main" id="scroll_4" value="" />
+                    <label for="scroll_4">
+                        <li>Business</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_5">
+                    <input type="radio" name="main" id="scroll_5" value="" />
+                    <label for="scroll_5">
+                        <li>us politics</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_6">
+                    <input type="radio" name="main" id="scroll_6" value="" />
+                    <label for="scroll_6">
+                        <li>Finance</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_7">
+                    <input type="radio" name="main" id="scroll_7" value="" />
+                    <label for="scroll_7">
+                        <li>Food & Drink</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_8">
+                    <input type="radio" name="main" id="scroll_8" value="" />
+                    <label for="scroll_8">
+                        <li>Podcasts</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_9">
+                    <input type="radio" name="main" id="scroll_9" value="" />
+                    <label for="scroll_9">
+                        <li>Sports</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_10">
+                    <input type="radio" name="main" id="scroll_10" value="" />
+                    <label for="scroll_10">
+                        <li>Art & Illustration</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_11">
+                    <input type="radio" name="main" id="scroll_11" value="" />
+                    <label for="scroll_11">
+                        <li>World Politics</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_12">
+                    <input type="radio" name="main" id="scroll_12" value="" />
+                    <label for="scroll_12">
+                        <li>Health Politics</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_13">
+                    <input type="radio" name="main" id="scroll_13" value="" />
+                    <label for="scroll_13">
+                        <li>News</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_14">
+                    <input type="radio" name="main" id="scroll_14" value="" />
+                    <label for="scroll_14">
+                        <li>Fashion & Beauty</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_15">
+                    <input type="radio" name="main" id="scroll_15" value="" />
+                    <label for="scroll_15">
+                        <li>Music</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_16">
+                    <input type="radio" name="main" id="scroll_16" value="" />
+                    <label for="scroll_16">
+                        <li>Faith & Spirituality</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_17">
+                    <input type="radio" name="main" id="scroll_17" value="" />
+                    <label for="scroll_17">
+                        <li>Climate & Environment</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_18">
+                    <input type="radio" name="main" id="scroll_18" value="" />
+                    <label for="scroll_18">
+                        <li>Science</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_19">
+                    <input type="radio" name="main" id="scroll_19" value="" />
+                    <label for="scroll_19">
+                        <li>Literature</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_20">
+                    <input type="radio" name="main" id="scroll_20" value="" />
+                    <label for="scroll_20">
+                        <li>Fiction</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_21">
+                    <input type="radio" name="main" id="scroll_21" value="" />
+                    <label for="scroll_21">
+                        <li>Health & Wellness</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_22">
+                    <input type="radio" name="main" id="scroll_22" value="" />
+                    <label for="scroll_22">
+                        <li>Design</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_23">
+                    <input type="radio" name="main" id="scroll_23" value="" />
+                    <label for="scroll_23">
+                        <li>Travel</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_24">
+                    <input type="radio" name="main" id="scroll_24" value="" />
+                    <label for="scroll_24">
+                        <li>Parenting</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_25">
+                    <input type="radio" name="main" id="scroll_25" value="" />
+                    <label for="scroll_25">
+                        <li>Philosophy</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_26">
+                    <input type="radio" name="main" id="scroll_26" value="" />
+                    <label for="scroll_26">
+                        <li>Comics</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_27">
+                    <input type="radio" name="main" id="scroll_27" value="" />
+                    <label for="scroll_27">
+                        <li>International</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_28">
+                    <input type="radio" name="main" id="scroll_28" value="" />
+                    <label for="scroll_28">
+                        <li>Crypto</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_29">
+                    <input type="radio" name="main" id="scroll_29" value="" />
+                    <label for="scroll_29">
+                        <li>History</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="#scroll_30">
+                    <input type="radio" name="main" id="scroll_30" value="" />
+                    <label for="scroll_30">
+                        <li>Humor</li>
+                    </label>
+                </a>
+                <!--  -->
+                <a href="https://substack.com/" target="_blank">
+                    <input type="radio" name="main" id="scroll_31" value="" />
+                    <label for="scroll_31">
+                        <li>Education</li>
+                    </label>
+                </a>
+                <a href="https://substack.com/" target="_blank">trending</a>
+                <!--  -->
             </ul>
             <section class="main_body">
                 <!--

@@ -247,6 +247,7 @@ header .drop_menu li {
 */
 
 .basics_head h2 p {
+    text-align: center;
     color: #404040;
     line-height: 68px;
 }
