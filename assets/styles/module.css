@@ -90,9 +90,17 @@ Box Model
 */
 
 header {
-	background-color: yellowgreen;
 	width: 100%;
 	height: 780px;
+	background-image: url(../images/header_bg.jpg);
+	background-size: cover;
+}
+
+.header_cont {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	opacity: 0.75;
 }
 
 .header_btm {
@@ -105,7 +113,6 @@ header {
 }
 
 .header_main {
-	background-color: springgreen;
 	width: 550px;
 	height: auto;
 	display: flex;
@@ -123,7 +130,6 @@ header {
 */
 
 main {
-	background-color: darkslategray;
 	width: 100%;
 	height: /*1255.6px*/ auto;
 	display: flex;
@@ -132,7 +138,6 @@ main {
 }
 
 .main_cont {
-	background-color: yellowgreen;
 	width: 92%;
 	margin: 100px 0;
 	height: /*1051px*/max-content;
@@ -142,22 +147,18 @@ main {
 }
 
 .main_pre {
-	background-color: teal;
 	width: 100%;
 	height: auto;
 }
 
 .main_body {
-	background-color: wheat;
 	width: 100%;
 	height: /*605px*/ auto;
 	display: flex;
 	gap: 1px;
-	overflow-x: scroll;
 }
 
 .main_body_cont {
-	background-color: chocolate;
 	width: /*1162.26px*/ 100%;
 	height: /*605px*/ auto;
 	display: flex;
@@ -169,7 +170,6 @@ main {
 
 
 .main_row {
-	background-color: tomato;
 	width: 100%;
 	height: max-content;
 	display: flex;
@@ -177,14 +177,12 @@ main {
 }
 
 .num {
-	background-color: thistle;
 	width: 78px;
 	height: 64px;
 	flex-shrink: 0;
 }
 
 .main_col2 {
-	background-color: teal;
 	width: 376px;
 	height: auto;
 	display: flex;
@@ -195,21 +193,120 @@ main {
 .main_img {
 	width: 64px;
 	height: 64px;
-	background-color: yellow;
 	border-radius: 6px;
 }
 
 .main_head {
 	width: 280px;
 	height: 100%;
-	background-color: aqua;
 }
 
 .main_col3 {
-	background-color: tan;
 	width: 57.3%;
 	height: auto;
 }
+
+/*  */
+
+.main_body_cont {
+	display: none;
+}
+
+.main_ul:has(#click_1:checked) ~ .main_body #scroll_1 {
+	display: flex;
+}
+.main_ul:has(#click_2:checked) ~ .main_body #scroll_2 {
+	display: flex;
+}
+.main_ul:has(#click_3:checked) ~ .main_body #scroll_3 {
+	display: flex;
+}
+.main_ul:has(#click_4:checked) ~ .main_body #scroll_4 {
+	display: flex;
+}
+.main_ul:has(#click_5:checked) ~ .main_body #scroll_5 {
+	display: flex;
+}
+.main_ul:has(#click_6:checked) ~ .main_body #scroll_6 {
+	display: flex;
+}
+.main_ul:has(#click_7:checked) ~ .main_body #scroll_7 {
+	display: flex;
+}
+.main_ul:has(#click_8:checked) ~ .main_body #scroll_8 {
+	display: flex;
+}
+.main_ul:has(#click_9:checked) ~ .main_body #scroll_9 {
+	display: flex;
+}
+.main_ul:has(#click_10:checked) ~ .main_body #scroll_10 {
+	display: flex;
+}
+.main_ul:has(#click_11:checked) ~ .main_body #scroll_11 {
+	display: flex;
+}
+.main_ul:has(#click_12:checked) ~ .main_body #scroll_12 {
+	display: flex;
+}
+.main_ul:has(#click_13:checked) ~ .main_body #scroll_13 {
+	display: flex;
+}
+.main_ul:has(#click_14:checked) ~ .main_body #scroll_14 {
+	display: flex;
+}
+.main_ul:has(#click_15:checked) ~ .main_body #scroll_15 {
+	display: flex;
+}
+.main_ul:has(#click_16:checked) ~ .main_body #scroll_16 {
+	display: flex;
+}
+.main_ul:has(#click_17:checked) ~ .main_body #scroll_17 {
+	display: flex;
+}
+.main_ul:has(#click_18:checked) ~ .main_body #scroll_18 {
+	display: flex;
+}
+.main_ul:has(#click_19:checked) ~ .main_body #scroll_19 {
+	display: flex;
+}
+.main_ul:has(#click_20:checked) ~ .main_body #scroll_20 {
+	display: flex;
+}
+.main_ul:has(#click_21:checked) ~ .main_body #scroll_21 {
+	display: flex;
+}
+.main_ul:has(#click_22:checked) ~ .main_body #scroll_22 {
+	display: flex;
+}
+.main_ul:has(#click_23:checked) ~ .main_body #scroll_23 {
+	display: flex;
+}
+.main_ul:has(#click_24:checked) ~ .main_body #scroll_24 {
+	display: flex;
+}
+.main_ul:has(#click_25:checked) ~ .main_body #scroll_25 {
+	display: flex;
+}
+.main_ul:has(#click_26:checked) ~ .main_body #scroll_26 {
+	display: flex;
+}
+.main_ul:has(#click_27:checked) ~ .main_body #scroll_27 {
+	display: flex;
+}
+.main_ul:has(#click_28:checked) ~ .main_body #scroll_28 {
+	display: flex;
+}
+.main_ul:has(#click_29:checked) ~ .main_body #scroll_29 {
+	display: flex;
+}
+.main_ul:has(#click_30:checked) ~ .main_body #scroll_30 {
+	display: flex;
+}
+.main_ul:has(#click_31:checked) ~ .main_body #scroll_31 {
+	display: flex;
+}
+
+
 
 /*
 =================================================================================
@@ -220,7 +317,6 @@ main {
 */
 
 footer {
-	background-color: yellowgreen;
 	width: 100%;
 	height: 706px;
 	display: flex;
@@ -229,13 +325,15 @@ footer {
 }
 
 .footer_cont {
-	background-color: yellow ;
 	width: /*89.1%*/ 1125.62px;
 	height: /*529px*/ auto;
+	margin: 0 5px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 70px;
 }
 
 .footer_head {
-	background-color: teal;
 	width: 100%;
 	height: 489px;
 	display: flex;
@@ -243,19 +341,16 @@ footer {
 }
 
 .footer_left {
-	background-color: gray;
 	width: 256px;
 	height: /*489px*/ auto;
 }
 
 .footer_logo {
-	background-color: antiquewhite;
 	width: 21px;
 	height: 24px;
 }
 
 .footer_right {
-	background-color: wheat;
 	width: 812px;
 	height: 489.5px;
 	display: flex;
@@ -263,7 +358,6 @@ footer {
 }
 
 .footer_btm {
-	background-color: thistle;
 	width: 100%;
 	height: 88px;
 	display: flex;
@@ -272,18 +366,25 @@ footer {
 }
 
 .footer_btm div:first-of-type {
-	background-color: violet;
 	width: 283px;
 	height: 43px;
 }
 
 .footer_btm div:first-of-type span {
 	display: inline-block;
-	background-color: teal;
 	width: 134px;
 	height: 43px;
 	border-radius: 12px;
 }
+
+.link {
+	width: 30px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: -50px;
+}
+
+
 
 
 

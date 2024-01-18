@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="./assets/styles/component.css">
     <link rel="stylesheet" href="./assets/styles/module.css">
     <link rel="stylesheet" href="./assets/styles/fonts.css">
+    <link rel="stylesheet" href="./assets/styles/active.css">
     <link rel="stylesheet" href="./assets/styles/responsive/media.css">
     <link rel="stylesheet" href="./assets/styles/responsive/mobile_view.css">
     <link rel="stylesheet" href="./assets/styles/assets.css">
+    <link rel="stylesheet" href="./assets/styles/icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -23,19 +27,39 @@
         ===================================================================================================
     -->
     <header>
-        <section class="header_pre">
-            <nav class="header_nav">
-                <section class="header_left_nav">
-                    <div class="burger">
-                        <div class="sandwich"></div>
-                        <div class="sandwich"></div>
-                        <div class="sandwich"></div>
-                    </div>
-                    <div class="header_logo">logo</div>
-                    <label for="drop_click_1" class="label_1">
-                        <input type="checkbox" class="head_input" id="drop_click_1"><span class="drop_click apple_system">Resources<i class="fa fa-angle-down" aria-hidden="true"></i></span>
-                        <div class="drop_menu" id="drop_menu_1">
-                            <ul>
+        <section class="header_cont">
+            <section class="header_pre">
+                <nav class="header_nav">
+                    <section class="header_left_nav">
+                        <label for="mobile_nav" class="mobile_label">
+                            <input type="radio" name="mobile_nav" id="mobile_nav">
+                            <div class="burger">
+                                <div class="sandwich"></div>
+                                <div class="sandwich"></div>
+                                <div class="sandwich"></div>
+                            </div>
+                        </label>
+                        <section class="mobile_nav">
+                            <section class="mobile_head">
+                                <label for="mobile_return" class="mobile_return">
+                                    <input type="radio" name="mobile_nav" id="mobile_return">
+                                    <div class="mobile_burger burger">
+                                        <div class="sandwich"></div>
+                                        <div class="sandwich"></div>
+                                        <div class="sandwich"></div>
+                                    </div>
+                                </label>
+                                <div class="mobile_btn_cont">
+                                    <button class="btn head_btn_1 orange">
+                                        Start writing
+                                    </button>
+                                    <button class="btn head_btn_2">
+                                        Sign in
+                                    </button>
+                                </div>
+                            </section>
+                            <ul class="mobile_ul">
+                                <li>Resources</li>
                                 <li>How to start a Substack</li>
                                 <li>Going paid guide</li>
                                 <li>Resource center</li>
@@ -43,15 +67,12 @@
                                 <li>Help center</li>
                                 <li>Brand assets</li>
                             </ul>
-                        </div>
-                    </label>
-                    <label for="drop_click_2" class="label_2">
-                        <input type="checkbox" class="head_input" id="drop_click_2"><span class="drop_click apple_system">Writers</span>
-                        <div class="drop_menu" id="drop_menu_2">
-                            <ul>
+                            <ul class="mobile_ul">
+                                <li>Writers</li>
                                 <li>Switch to Substack</li>
                                 <li>Go paid</li>
                                 <li>Grow your audience</li>
+                                <li>For video</li>
                                 <li>For podcasts</li>
                                 <li>For bloggers</li>
                                 <li>For finance writers</li>
@@ -60,48 +81,126 @@
                                 <li>For food writers</li>
                                 <li>For local news</li>
                             </ul>
-                        </div>
-                    </label>
-                    <label for="drop_click_3" class="label_3">
-                        <input type="checkbox" class="head_input" id="drop_click_3"><span class="drop_click apple_system">Readers</span>
-                        <div class="drop_menu" id="drop_menu_3">
-                            <ul>
+                            <ul class="mobile_ul">
+                                <li>Readers</li>
                                 <li>Substack App</li>
                                 <li>Discover</li>
                                 <li>Featured</li>
                             </ul>
-                        </div>
-                    </label>
-                </section>
-                <section class="header_right_nav">
-                    <label for="search" class="search">
-                        <input type="text" placeholder="Search Substack...">
-                    </label>
-                    <button class="btn head_btn_1 orange">
-                        Start writing
-                    </button>
-                    <button class="btn head_btn_2">
-                        Sign in
-                    </button>
-                </section>
-            </nav>
-        </section>
-        <section class="header_btm">
-            <div class="header_main">
-                <h1>
-                    <p class="cahuenga">The home for great</p>
-                    <p class="cahuenga"> writers and readers</p>
-                </h1>
-                <div class="hero_btn_cont">
-                    <button class="btn hero_btn_1 orange">
-                        Get the app
-                    </button>
-                    <button class="btn hero_btn_2">
-                        Create your substack
-                    </button>
+                        </section>
+                        <div class="header_logo">logo</div>
+                        <label for="drop_click_1" class="label_1">
+                            <input type="checkbox" class="head_input" id="drop_click_1">
+                            <span class="drop_click apple_system">Resources
+                                <svg role="img" width="12" height="12" viewBox="0 -2 18 10" fill="none"
+                                    stroke="currentcolor" stroke-width="1" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title></title>
+                                        <path d="M1 1L9 9L17 1" stroke-width="2"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <div class="drop_menu" id="drop_menu_1">
+                                <ul>
+                                    <li>How to start a Substack</li>
+                                    <li>Going paid guide</li>
+                                    <li>Resource center</li>
+                                    <li>Community & programs</li>
+                                    <li>Help center</li>
+                                    <li>Brand assets</li>
+                                </ul>
+                            </div>
+                        </label>
+                        <label for="drop_click_2" class="label_2">
+                            <input type="checkbox" class="head_input" id="drop_click_2">
+                            <span class="drop_click apple_system">Writers
+                                <svg role="img" width="12" height="10" viewBox="0 -1 18 10" fill="none"
+                                    stroke="currentcolor" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title></title>
+                                        <path d="M1 1L9 9L17 1" stroke-width="2"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <div class="drop_menu" id="drop_menu_2">
+                                <ul>
+                                    <li>Switch to Substack</li>
+                                    <li>Go paid</li>
+                                    <li>Grow your audience</li>
+                                    <li>For video</li>
+                                    <li>For podcasts</li>
+                                    <li>For bloggers</li>
+                                    <li>For finance writers</li>
+                                    <li>For authors</li>
+                                    <li>For comic creators</li>
+                                    <li>For food writers</li>
+                                    <li>For local news</li>
+                                </ul>
+                            </div>
+                        </label>
+                        <label for="drop_click_3" class="label_3">
+                            <input type="checkbox" class="head_input" id="drop_click_3">
+                            <span class="drop_click apple_system">Readers
+                                <svg role="img" width="12" height="10" viewBox="0 -1 18 10" fill="none"
+                                    stroke="currentcolor" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title></title>
+                                        <path d="M1 1L9 9L17 1" stroke-width="2"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <div class="drop_menu" id="drop_menu_3">
+                                <ul>
+                                    <li>Substack App</li>
+                                    <li>Discover</li>
+                                    <li>Featured</li>
+                                </ul>
+                            </div>
+                        </label>
+                    </section>
+                    <section class="header_right_nav">
+                        <label for="search" class="search">
+                            <input type="text" placeholder="Search Substack...">
+                        </label>
+                        <button class="btn head_btn_1 orange">
+                            Start writing
+                        </button>
+                        <button class="btn head_btn_2">
+                            Sign in
+                        </button>
+                    </section>
+                </nav>
+            </section>
+            <section class="header_btm">
+                <div class="header_main">
+                    <h1>
+                        <p class="cahuenga">The home for great</p>
+                        <p class="cahuenga"> writers and readers</p>
+                    </h1>
+                    <div class="hero_btn_cont">
+                        <button class="btn hero_btn_1 orange">
+                            Get the app
+                        </button>
+                        <button class="btn hero_btn_2">
+                            Create your substack
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <!-- <a href="#">downward arrow</a> -->
+            </section>
+            <section class="link">
+                <a href="#main">
+                    <svg role="img" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke-width="1.8"
+                        stroke="#404040" xmlns="http://www.w3.org/2000/svg" class="caret-down-icon">
+                        <g>
+                            <title></title>
+                            <path d="M9.3335 17.3334L16.0002 24L22.6668 17.3334" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M9.3335 8L16.0002 14.6667L22.6668 8" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </a>
+            </section>
         </section>
     </header>
     <!--
@@ -111,7 +210,7 @@
         ===================================================================================================
         ===================================================================================================
     -->
-    <main>
+    <main id="main">
         <section class="main_cont">
             <div class="main_pre">
                 <h2>
@@ -119,223 +218,160 @@
                 </h2>
             </div>
             <ul class="main_ul">
-                <a href="#scroll_1">
-                    <input type="radio" name="main" id="scroll_1" value="Featured" />
-                    <label for="scroll_1">
-                        <li>Featured</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_1" value="Featured" checked />
+                <label for="click_1">
+                    <li id="main_1">Featured</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_2">
-                    <input type="radio" name="main" id="scroll_2" value="" />
-                    <label for="scroll_2">
-                        <li>Culture</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_2" value="" />
+                <label for="click_2">
+                    <li id="main_2">Culture</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_3">
-                    <input type="radio" name="main" id="scroll_3" value="" />
-                    <label for="scroll_3">
-                        <li>Technology</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_3" value="" />
+                <label for="click_3">
+                    <li id="main_3">Technology</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_4">
-                    <input type="radio" name="main" id="scroll_4" value="" />
-                    <label for="scroll_4">
-                        <li>Business</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_4" value="" />
+                <label for="click_4">
+                    <li id="main_4">Business</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_5">
-                    <input type="radio" name="main" id="scroll_5" value="" />
-                    <label for="scroll_5">
-                        <li>us politics</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_5" value="" />
+                <label for="click_5">
+                    <li id="main_5">us politics</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_6">
-                    <input type="radio" name="main" id="scroll_6" value="" />
-                    <label for="scroll_6">
-                        <li>Finance</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_6" value="" />
+                <label for="click_6">
+                    <li id="main_6">Finance</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_7">
-                    <input type="radio" name="main" id="scroll_7" value="" />
-                    <label for="scroll_7">
-                        <li>Food & Drink</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_7" value="" />
+                <label for="click_7">
+                    <li id="main_7">Food & Drink</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_8">
-                    <input type="radio" name="main" id="scroll_8" value="" />
-                    <label for="scroll_8">
-                        <li>Podcasts</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_8" value="" />
+                <label for="click_8">
+                    <li id="main_8">Podcasts</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_9">
-                    <input type="radio" name="main" id="scroll_9" value="" />
-                    <label for="scroll_9">
-                        <li>Sports</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_9" value="" />
+                <label for="click_9">
+                    <li id="main_9">Sports</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_10">
-                    <input type="radio" name="main" id="scroll_10" value="" />
-                    <label for="scroll_10">
-                        <li>Art & Illustration</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_10" value="" />
+                <label for="click_10">
+                    <li id="main_10">Art & Illustration</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_11">
-                    <input type="radio" name="main" id="scroll_11" value="" />
-                    <label for="scroll_11">
-                        <li>World Politics</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_11" value="" />
+                <label for="click_11">
+                    <li id="main_11">World Politics</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_12">
-                    <input type="radio" name="main" id="scroll_12" value="" />
-                    <label for="scroll_12">
-                        <li>Health Politics</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_12" value="" />
+                <label for="click_12">
+                    <li id="main_12">Health Politics</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_13">
-                    <input type="radio" name="main" id="scroll_13" value="" />
-                    <label for="scroll_13">
-                        <li>News</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_13" value="" />
+                <label for="click_13">
+                    <li id="main_13">News</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_14">
-                    <input type="radio" name="main" id="scroll_14" value="" />
-                    <label for="scroll_14">
-                        <li>Fashion & Beauty</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_14" value="" />
+                <label for="click_14">
+                    <li id="main_14">Fashion & Beauty</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_15">
-                    <input type="radio" name="main" id="scroll_15" value="" />
-                    <label for="scroll_15">
-                        <li>Music</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_15" value="" />
+                <label for="click_15">
+                    <li id="main_15">Music</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_16">
-                    <input type="radio" name="main" id="scroll_16" value="" />
-                    <label for="scroll_16">
-                        <li>Faith & Spirituality</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_16" value="" />
+                <label for="click_16">
+                    <li id="main_16">Faith & Spirituality</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_17">
-                    <input type="radio" name="main" id="scroll_17" value="" />
-                    <label for="scroll_17">
-                        <li>Climate & Environment</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_17" value="" />
+                <label for="click_17">
+                    <li id="main_17">Climate & Environment</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_18">
-                    <input type="radio" name="main" id="scroll_18" value="" />
-                    <label for="scroll_18">
-                        <li>Science</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_18" value="" />
+                <label for="click_18">
+                    <li id="main_18">Science</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_19">
-                    <input type="radio" name="main" id="scroll_19" value="" />
-                    <label for="scroll_19">
-                        <li>Literature</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_19" value="" />
+                <label for="click_19">
+                    <li id="main_19">Literature</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_20">
-                    <input type="radio" name="main" id="scroll_20" value="" />
-                    <label for="scroll_20">
-                        <li>Fiction</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_20" value="" />
+                <label for="click_20">
+                    <li id="main_20">Fiction</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_21">
-                    <input type="radio" name="main" id="scroll_21" value="" />
-                    <label for="scroll_21">
-                        <li>Health & Wellness</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_21" value="" />
+                <label for="click_21">
+                    <li id="main_21">Health & Wellness</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_22">
-                    <input type="radio" name="main" id="scroll_22" value="" />
-                    <label for="scroll_22">
-                        <li>Design</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_22" value="" />
+                <label for="click_22">
+                    <li id="main_22">Design</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_23">
-                    <input type="radio" name="main" id="scroll_23" value="" />
-                    <label for="scroll_23">
-                        <li>Travel</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_23" value="" />
+                <label for="click_23">
+                    <li id="main_23">Travel</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_24">
-                    <input type="radio" name="main" id="scroll_24" value="" />
-                    <label for="scroll_24">
-                        <li>Parenting</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_24" value="" />
+                <label for="click_24">
+                    <li id="main_24">Parenting</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_25">
-                    <input type="radio" name="main" id="scroll_25" value="" />
-                    <label for="scroll_25">
-                        <li>Philosophy</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_25" value="" />
+                <label for="click_25">
+                    <li id="main_25">Philosophy</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_26">
-                    <input type="radio" name="main" id="scroll_26" value="" />
-                    <label for="scroll_26">
-                        <li>Comics</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_26" value="" />
+                <label for="click_26">
+                    <li id="main_26">Comics</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_27">
-                    <input type="radio" name="main" id="scroll_27" value="" />
-                    <label for="scroll_27">
-                        <li>International</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_27" value="" />
+                <label for="click_27">
+                    <li id="main_27">International</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_28">
-                    <input type="radio" name="main" id="scroll_28" value="" />
-                    <label for="scroll_28">
-                        <li>Crypto</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_28" value="" />
+                <label for="click_28">
+                    <li id="main_28">Crypto</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_29">
-                    <input type="radio" name="main" id="scroll_29" value="" />
-                    <label for="scroll_29">
-                        <li>History</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_29" value="" />
+                <label for="click_29">
+                    <li id="main_29">History</li>
+                </label>
                 <!--  -->
-                <a href="#scroll_30">
-                    <input type="radio" name="main" id="scroll_30" value="" />
-                    <label for="scroll_30">
-                        <li>Humor</li>
-                    </label>
-                </a>
+                <input type="radio" name="main" id="click_30" value="" />
+                <label for="click_30">
+                    <li id="main_30">Humor</li>
+                </label>
                 <!--  -->
-                <a href="https://substack.com/" target="_blank">
-                    <input type="radio" name="main" id="scroll_31" value="" />
-                    <label for="scroll_31">
-                        <li>Education</li>
-                    </label>
-                </a>
-                <a href="https://substack.com/" target="_blank">trending</a>
+                <input type="radio" name="main" id="click_31" value="" />
+                <label for="click_31">
+                    <li id="main_31">Education</li>
+                </label>
                 <!--  -->
             </ul>
             <section class="main_body">
@@ -347,7 +383,9 @@
                     <section class="main_row">
                         <div class="num">1</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The Rose Garden Report</p>
                                 <p>Sean Highkin</p>
@@ -462,7 +500,9 @@
                     <section class="main_row">
                         <div class="num">1</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/culture/1.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>House Inhabit</p>
                                 <p>Jessica Reed Kraus</p>
@@ -485,7 +525,9 @@
                     <section class="main_row">
                         <div class="num">2</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/culture/2.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The Fifth Column (A Podcast)</p>
                                 <p>The Fifth Column</p>
@@ -508,7 +550,9 @@
                     <section class="main_row">
                         <div class="num">3</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/culture/3.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The Isolation Journals with Suleika Jaouad</p>
                                 <p>Suleika Jaouad</p>
@@ -531,7 +575,9 @@
                     <section class="main_row">
                         <div class="num">4</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/culture/4.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Blocked and Reported</p>
                                 <p>Jesse Singal</p>
@@ -553,7 +599,9 @@
                     <section class="main_row">
                         <div class="num">5</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/culture/5.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Culture Study</p>
                                 <p>Anne Helen Petersen</p>
@@ -581,7 +629,9 @@
                     <section class="main_row">
                         <div class="num">1</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                
+                            </div>
                             <div class="main_head">
                                 <p>The Pragmatic Engineer</p>
                                 <p>Gergely Orosz</p>
@@ -604,7 +654,9 @@
                     <section class="main_row">
                         <div class="num">2</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                
+                            </div>
                             <div class="main_head">
                                 <p>SemiAnalysis</p>
                                 <p>Dylan Patel</p>
@@ -627,7 +679,9 @@
                     <section class="main_row">
                         <div class="num">3</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                
+                            </div>
                             <div class="main_head">
                                 <p>ByteByteGo Newsletter</p>
                                 <p>Alex Xu</p>
@@ -650,7 +704,9 @@
                     <section class="main_row">
                         <div class="num">4</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                
+                            </div>
                             <div class="main_head">
                                 <p>Platformer</p>
                                 <p>Casey Newton</p>
@@ -673,7 +729,9 @@
                     <section class="main_row">
                         <div class="num">5</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                
+                            </div>
                             <div class="main_head">
                                 <p>Exponential View by Azeem Azhar</p>
                                 <p>Azeem Azhar</p>
@@ -3557,7 +3615,7 @@
                         </div>
                     </section>
                 </section>
-                <!--
+                <!--    Crypto
                         ============================================================================
                         ============================================================================
                     -->
@@ -3565,7 +3623,9 @@
                     <section class="main_row">
                         <div class="num">1</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/crypto/1.webp" height="100%" width="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>BowTied Bull</p>
                                 <p>BowTied Bull</p>
@@ -3589,7 +3649,9 @@
                     <section class="main_row">
                         <div class="num">2</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/crypto/2.webp" height="100%" width="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The Pomp Letter</p>
                                 <p>Anthony Pompliano</p>
@@ -3612,7 +3674,9 @@
                     <section class="main_row">
                         <div class="num">3</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/crypto/3.webp" height="100%" width="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>DeFi Education</p>
                                 <p>DeFi Education</p>
@@ -3634,7 +3698,9 @@
                     <section class="main_row">
                         <div class="num">4</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/crypto/4.webp" height="100%" width="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>ARB Letter</p>
                                 <p>Arbitrage Andy</p>
@@ -3659,7 +3725,9 @@
                     <section class="main_row">
                         <div class="num">5</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/crypto/5.png" height="100%" width="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>TechDev Newsletter</p>
                                 <p>TechDev</p>
@@ -3681,7 +3749,7 @@
                         </div>
                     </section>
                 </section>
-                <!--
+                <!--    History
                         ============================================================================
                         ============================================================================
                     -->
@@ -3689,7 +3757,9 @@
                     <section class="main_row">
                         <div class="num">1</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/history/1.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The Martyr Made Substack</p>
                                 <p>Darryl Cooper</p>
@@ -3711,7 +3781,9 @@
                     <section class="main_row">
                         <div class="num">2</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/history/2.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Chartbook</p>
                                 <p>Adam Tooze</p>
@@ -3735,7 +3807,9 @@
                     <section class="main_row">
                         <div class="num">3</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/history/3.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Gray Mirror</p>
                                 <p>Curtis Yarvin</p>
@@ -3757,7 +3831,9 @@
                     <section class="main_row">
                         <div class="num">4</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/history/" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The American Peasant</p>
                                 <p>Christopher Schwarz</p>
@@ -3780,7 +3856,9 @@
                     <section class="main_row">
                         <div class="num">5</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/history/5.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Brown History</p>
                                 <p>Brown History</p>
@@ -3800,7 +3878,7 @@
                         </div>
                     </section>
                 </section>
-                <!--
+                <!--    Humor
                         ============================================================================
                         ============================================================================
                     -->
@@ -3808,7 +3886,9 @@
                     <section class="main_row">
                         <div class="num">1</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/humor/1.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Garrison Keillor and Friends</p>
                                 <p>Garrison Keillor</p>
@@ -3832,7 +3912,9 @@
                     <section class="main_row">
                         <div class="num">2</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/humor/2.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The Grudge Report</p>
                                 <p>Bess Kalb</p>
@@ -3854,7 +3936,9 @@
                     <section class="main_row">
                         <div class="num">3</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/humor/3.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Exploding Unicorn by James Breakwell</p>
                                 <p>James Breakwell</p>
@@ -3876,7 +3960,9 @@
                     <section class="main_row">
                         <div class="num">4</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/humor/4 (2).webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Weekend Water with Paul F. Tompkins & Janie Haddad Tompkins</p>
                                 <p>Janie Haddad Tompkins</p>
@@ -3901,7 +3987,9 @@
                     <section class="main_row">
                         <div class="num">5</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/humor/5.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The Zed Letter</p>
                                 <p>Tyler Zed</p>
@@ -3922,7 +4010,7 @@
                         </div>
                     </section>
                 </section>
-                <!--
+                <!--    Education
                         ============================================================================
                         ============================================================================
                     -->
@@ -3930,7 +4018,9 @@
                     <section class="main_row">
                         <div class="num">1</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/education/1.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>The official Ryan McBeth Substack</p>
                                 <p>Ryan McBeth</p>
@@ -3953,7 +4043,9 @@
                     <section class="main_row">
                         <div class="num">2</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/education/2.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Write With AI</p>
                                 <p>Nicolas Cole</p>
@@ -3976,7 +4068,9 @@
                     <section class="main_row">
                         <div class="num">3</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/education/3.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Knowingless</p>
                                 <p>Aella</p>
@@ -3998,7 +4092,9 @@
                     <section class="main_row">
                         <div class="num">4</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/education/4.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Zero to Hoodie Substack</p>
                                 <p>BowTiedCyber</p>
@@ -4021,7 +4117,9 @@
                     <section class="main_row">
                         <div class="num">5</div>
                         <section class="main_col2">
-                            <div class="main_img">img</div>
+                            <div class="main_img">
+                                <img src="./assets/images/main/education/5.webp" width="100%" height="100%" alt="">
+                            </div>
                             <div class="main_head">
                                 <p>Life is Meeting</p>
                                 <p>Alby Shale</p>
@@ -4063,7 +4161,9 @@
             </div>
             <section class="culture_body">
                 <section class="culture_main">
-                    <div class="culture_img">img</div>
+                    <div class="culture_img">
+                        <img src="./assets/images/culture/benefit-1.png" width="100%" height="100%" alt="">
+                    </div>
                     <section class="culture_left">
                         <div class="culture_text">
                             <h3>
@@ -4077,13 +4177,22 @@
                                 </p>
                             </h5>
                             <h5>
-                                <p class="apple_system">Create your Substack</p>
+                                <p class="apple_system">Create your Substack
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 -1 25 25"
+                                        fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-arrow-right ">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </p>
                             </h5>
                         </div>
                     </section>
                 </section>
                 <section class="culture_main">
-                    <div class="culture_img">img</div>
+                    <div class="culture_img">
+                        <img src="./assets/images/culture/benefit-2.png" width="100%" height="100%" alt="">
+                    </div>
                     <section class="culture_left">
                         <div class="culture_text">
                             <h3>
@@ -4096,13 +4205,22 @@
                                 </p>
                             </h5>
                             <h5>
-                                <p class="apple_system">Create your Substack</p>
+                                <p class="apple_system">Create your Substack
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 -1 25 25"
+                                        fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-arrow-right ">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </p>
                             </h5>
                         </div>
                     </section>
                 </section>
                 <section class="culture_main">
-                    <div class="culture_img">img</div>
+                    <div class="culture_img">
+                        <img src="./assets/images/culture/benefit-3.png" width="100%" height="100%" alt="">
+                    </div>
                     <section class="culture_left">
                         <div class="culture_text">
                             <h3>
@@ -4116,7 +4234,14 @@
                                 </p>
                             </h5>
                             <h5>
-                                <p class="apple_system">Create your Substack</p>
+                                <p class="apple_system">Create your Substack
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 -1 25 25"
+                                        fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-arrow-right ">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </p>
                             </h5>
                         </div>
                     </section>
@@ -4140,7 +4265,8 @@
             </div>
             <section class="experience_body">
                 <section class="experience_left">
-                    <div class="experience_img">img
+                    <div class="experience_img">
+                        <!-- <img src="./assets/images/experience/phoneV3.png" alt=""> -->
                     </div>
                     <button class="btn experience_btn orange">
                         Get the app
@@ -4149,7 +4275,17 @@
                 <section class="experience_sub">
                     <div class="experience_main">
                         <label for="drop_reveal_1">
-                            <input type="checkbox" id="drop_reveal_1"><span class="cahuenga">Posts</span>
+                            <input type="radio" name="reveal" id="drop_reveal_1" checked>
+                            <span class="cahuenga">
+                                <svg role="img" width="32" height="32" viewBox="0 0 16 16" fill="none"
+                                    stroke-width="1.8" stroke="#000" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title></title>return <path d="M4 7L8 11L12 7" stroke="#FF6719"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>;
+                                    </g>
+                                </svg>
+                                Posts
+                            </span>
                             <div class="drop_shade"></div>
                             <h5>
                                 <p class="apple_system">
@@ -4159,13 +4295,31 @@
                                 </p>
                             </h5>
                             <h5>
-                                <p class="apple_system">Create your Substack</p>
+                                <p class="apple_system">
+                                    Create your Substack
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-arrow-right ">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </p>
                             </h5>
                         </label>
                     </div>
                     <div class="experience_main">
                         <label for="drop_reveal_2">
-                            <input type="checkbox" id="drop_reveal_2"><span class="cahuenga">Podcasts</span>
+                            <input type="radio" name="reveal" id="drop_reveal_2">
+                            <span class="cahuenga">
+                                <svg role="img" width="32" height="32" viewBox="0 0 16 16" fill="none"
+                                    stroke-width="1.8" stroke="#000" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title></title>return <path d="M4 7L8 11L12 7" stroke="#FF6719"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>;
+                                    </g>
+                                </svg>
+                                Podcasts
+                            </span>
                             <div class="drop_shade"></div>
                             <h5>
                                 <p class="apple_system">
@@ -4175,13 +4329,31 @@
                                 </p>
                             </h5>
                             <h5>
-                                <p class="apple_system">Create your Substack</p>
+                                <p class="apple_system">
+                                    Create your Substack
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-arrow-right ">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </p>
                             </h5>
                         </label>
                     </div>
                     <div class="experience_main">
                         <label for="drop_reveal_3">
-                            <input type="checkbox" id="drop_reveal_3"><span class="cahuenga">Video</span>
+                            <input type="radio" name="reveal" id="drop_reveal_3">
+                            <span class="cahuenga">
+                                <svg role="img" width="32" height="32" viewBox="0 0 16 16" fill="none"
+                                    stroke-width="1.8" stroke="#000" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title></title>return <path d="M4 7L8 11L12 7" stroke="#FF6719"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>;
+                                    </g>
+                                </svg>
+                                Video
+                            </span>
                             <div class="drop_shade"></div>
                             <h5>
                                 <p class="apple_system">
@@ -4191,13 +4363,31 @@
                                 </p>
                             </h5>
                             <h5>
-                                <p class="apple_system">Create your Substack</p>
+                                <p class="apple_system">
+                                    Create your Substack
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-arrow-right ">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </p>
                             </h5>
                         </label>
                     </div>
                     <div class="experience_main">
                         <label for="drop_reveal_4">
-                            <input type="checkbox" id="drop_reveal_4"><span class="cahuenga">Community</span>
+                            <input type="radio" name="reveal" id="drop_reveal_4">
+                            <span class="cahuenga">
+                                <svg role="img" width="32" height="32" viewBox="0 0 16 16" fill="none"
+                                    stroke-width="1.8" stroke="#000" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title></title>return <path d="M4 7L8 11L12 7" stroke="#FF6719"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>;
+                                    </g>
+                                </svg>
+                                Community
+                            </span>
                             <div class="drop_shade"></div>
                             <h5>
                                 <p class="apple_system">
@@ -4207,7 +4397,15 @@
                                 </p>
                             </h5>
                             <h5>
-                                <p>Create your Substack</p>
+                                <p>
+                                    Create your Substack
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 -1 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-arrow-right ">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </p>
                             </h5>
                         </label>
                     </div>
@@ -4314,10 +4512,10 @@
                     </div>
                     <div class="basic_ans" class="basic_ans">
                         <h5>
-                            <p class="apple_system">Yes. More than 40% of all new free subscriptions and around 20% of
-                                paid subscriptions to
-                                Substacks
-                                come from within our network.
+                            <p class="apple_system">
+                                Yes. More than <span class="orange_text">40% of all new free subscriptions</span> and
+                                around 20% of
+                                paid subscriptions to Substacks come from within our network.
                             </p>
                         </h5>
                     </div>
@@ -4330,10 +4528,10 @@
                     </div>
                     <div class="basic_ans">
                         <h5>
-                            <p class="apple_system">If you already have an audience on Wordpress, Mailchimp, Ghost,
-                                Medium, Tumblr, or
-                                another platform,
-                                you can easily import your posts and your email list in the Substack setup process.
+                            <p class="apple_system">
+                                If you already have an audience on Wordpress, Mailchimp, Ghost,
+                                Medium, Tumblr, or another platform, you can easily <span class="orange_text">import
+                                    your posts and your email list</span> in the Substack setup process.
                             </p>
                         </h5>
                     </div>
@@ -4367,7 +4565,18 @@
         <section class="footer_cont">
             <section class="footer_head">
                 <div class="footer_left">
-                    <div class="footer_logo">logo</div>
+                    <div class="footer_logo">
+                        <svg role="img" width="22" height="26" viewBox="0 0 21 24" fill="#FF6719" stroke-width="1.8"
+                            stroke="none" xmlns="http://www.w3.org/2000/svg"
+                            class="navbar-logo-wordmark substack-logo-wordmark">
+                            <g>
+                                <title></title>
+                                <path d="M20.9991 5.40625H0V8.24275H20.9991V5.40625Z"></path>
+                                <path d="M0 10.8125V24.0004L10.4991 18.1107L21 24.0004V10.8125H0Z"></path>
+                                <path d="M20.9991 0H0V2.83603H20.9991V0Z"></path>
+                            </g>
+                        </svg>
+                    </div>
                     <p class="cahuenga">Substack is the home for great writing</p>
                 </div>
                 <section class="footer_right">
@@ -4384,7 +4593,7 @@
                             <li>Top in finance</li>
                             <li>Top in sports</li>
                             <li>Top in technology</li>
-                            <li style="height: 48px;">Top in Faith & Spirituality</li>
+                            <li style="height: auto;">Top in Faith & Spirituality</li>
                             <li>Top in Business</li>
                             <li>See more categories</li>
                         </ul>
@@ -4423,7 +4632,7 @@
                             <li>Resource center</li>
                             <li>Guide to going paid</li>
                             <li>Help center</li>
-                            <li style="height: 48px;">Community and programs</li>
+                            <li style="height: auto;">Community and programs</li>
                             <li>Brand assets</li>
                         </ul>
                     </nav>
@@ -4431,14 +4640,18 @@
             </section>
             <section class="footer_btm">
                 <div>
-                    <span>app store</span>
-                    <span>playstore</span>
+                    <span>
+                        <img src="./assets/images/logo/app-store-white.jpg" width="100%" height="100%">
+                    </span>
+                    <span>
+                        <img src="./assets/images/logo/google-play-white.png" width="100%" height="100%" alt="">
+                    </span>
                 </div>
                 <div>
                     <small>© Substack Inc.</small>
-                    <small>Privacy</small>
-                    <small>Terms</small>
-                    <small>Collection notice</small>
+                    <small class="under">Privacy</small>
+                    <small class="under">Terms</small>
+                    <small class="under">Collection notice</small>
                 </div>
             </section>
         </section>

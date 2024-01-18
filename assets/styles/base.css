@@ -66,6 +66,7 @@ Box Model
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+			outline: 1px solid gray;
 }
 
 
@@ -115,7 +116,6 @@ Box Model
 */
 
 .culture {
-	background-color: yellowgreen;
 	width: 100%;
 	height: 1765px;
 	display: flex;
@@ -124,7 +124,6 @@ Box Model
 }
 
 .culture_cont {
-	background-color: yellow;
 	width: 92%;
 	height: auto;
 	display: flex;
@@ -133,19 +132,16 @@ Box Model
 }
 
 .culture_head {
-	background-color: whitesmoke;
 	width: 100%;
 	height: auto;
 }
 
 .culture_body {
-	background-color: wheat;
 	width: 100%;
 	height: 1416px;
 }
 
 .culture_main {
-	background-color: violet;
 	width: 100%;
 	height: 472px;
 	display: flex;
@@ -153,13 +149,11 @@ Box Model
 }
 
 .culture_img {
-	background-color: turquoise;
 	width: 49%;
 	height: inherit;
 }
 
 .culture_left {
-	background-color: tomato;
 	width: 49%;
 	height: inherit;
 	display: flex;
@@ -167,9 +161,9 @@ Box Model
 }
 
 .culture_text {
-	background-color: teal;
 	width: 100%;
 	height: auto;
+	padding: 5px 0;
 }
 
 
@@ -184,17 +178,14 @@ Box Model
 */
 
 .experience {
-	background-color: teal;
 	width: 100%;
 	height: 1109px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* overflow-x: hidden; */
 }
 
 .experience_cont {
-	background-color: red;
 	width: 94%;
 	height: /*869px*/ auto;
 	display: flex;
@@ -203,13 +194,11 @@ Box Model
 }
 
 .experience_head {
-	background-color: steelblue;
 	width: 100%;
 	height: auto;
 }
 
 .experience_body {
-	background-color: snow;
 	width: 989px /*85.55%*/;
 	height: 760px;
 	display: flex;
@@ -218,7 +207,6 @@ Box Model
 }
 
 .experience_left {
-	background-color: yellowgreen;
 	width: auto;
 	height: 100%;
 	display: grid;
@@ -226,13 +214,13 @@ Box Model
 }
 
 .experience_img {
-	background-color: slateblue;
 	width: 439px;
 	height: 680px;
+	background-image: url(../images/experience/phoneV3.png);
+	background-size: contain;
 }
 
 .experience_sub {
-	background-color: springgreen;
 	width: 470px;
 	height: 85.5%;
 	display: flex;
@@ -241,7 +229,6 @@ Box Model
 }
 
 .experience_main {
-	background-color: slateblue;
 	width: 100%;
 	height: /*245.79px*/ auto;
 	margin: 2px;
@@ -260,7 +247,6 @@ Box Model
 */
 
 .testimony {
-	background-color: thistle;
 	width: 100%;
 	height: 563px;
 	display: flex;
@@ -269,7 +255,6 @@ Box Model
 }
 
 .testimony_cont {
-	background-color: teal;
 	width: /*71.8%*/  907.073px;
 	height: 323px;
 	display: grid;
@@ -289,7 +274,6 @@ Box Model
 */
 
 .basics {
-	background-color: yellowgreen;
 	width: 100%;
 	height: 1130.26px;
 	display: flex;
@@ -298,7 +282,6 @@ Box Model
 }
 
 .basics_cont {
-	background-color: yellow;
 	width: 960px;
 	height: 890.3px;
 	display: flex;
@@ -308,12 +291,10 @@ Box Model
 }
 
 .basics_head {
-	background-color: whitesmoke;
 	height: auto;
 }
 
 .basics_body {
-	background-color: wheat;
 	width: 100%;
 	height: 742px;
 	display: flex;
@@ -322,31 +303,18 @@ Box Model
 }
 
 .basics_main {
-	background-color: violet;
 	width: 100%;
 	height: auto;
 	display: flex;
 	justify-content: space-between;
 }
 
-/* .nine_two {
-	background-color: tomato;
-	height: 92px;
-}
-
-.seven_nine {
-	background-color: turquoise;
-	height: 78px;
-} */
-
 .basic_quest {
-	background-color: thistle;
 	width: /*47%*/ 391px;
 	height: 100%;
 }
 
 .basic_ans {
-	background-color: teal;
 	width: 470px;
 	height: auto;
 }
@@ -359,7 +327,6 @@ Box Model
 */
 
 .start {
-	background-color: tomato;
 	width: 100%;
 	height: 388px;
 	display: flex;
@@ -368,7 +335,6 @@ Box Model
 }
 
 .start_cont {
-	background-color: turquoise;
 	width: auto;
 	height: 142px;
 	display: grid;

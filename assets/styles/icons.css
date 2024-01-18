@@ -1,0 +1,17 @@
+
+
+.culture_main svg {
+    margin-left: 6px;
+    position: absolute;
+}
+
+.experience_main span svg {
+    position: absolute;
+    margin-left: -60px;
+}
+
+.experience_main svg:first-of-type {
+    position: absolute;
+}
+
+
