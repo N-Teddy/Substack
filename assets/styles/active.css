@@ -98,6 +98,10 @@ header span:hover {
 
 /* main */
 
+.main_ul li:hover {
+    background-color: rgb(224, 221, 221);
+}
+
 .main_btn:hover {
     background-color: rgb(241, 97, 24);
 }
@@ -120,169 +124,141 @@ main
 /*  */
 
 .main_ul #click_1:checked ~ label #main_1 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_2:checked ~ label #main_2 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_3:checked ~ label #main_3 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_4:checked ~ label #main_4 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_5:checked ~ label #main_5 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_6:checked ~ label #main_6 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_7:checked ~ label #main_7 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_8:checked ~ label #main_8 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_9:checked ~ label #main_9 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_10:checked ~ label #main_10 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_11:checked ~ label #main_11 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_12:checked ~ label #main_12 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_13:checked ~ label #main_13 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_14:checked ~ label #main_14 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_15:checked ~ label #main_15 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_16:checked ~ label #main_16 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_17:checked ~ label #main_17 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_18:checked ~ label #main_18 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_19:checked ~ label #main_19 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_20:checked ~ label #main_20 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_21:checked ~ label #main_21 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_22:checked ~ label #main_22 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_23:checked ~ label #main_23 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_24:checked ~ label #main_24 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_25:checked ~ label #main_25 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_26:checked ~ label #main_26 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_27:checked ~ label #main_27 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_28:checked ~ label #main_28 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
@@ -294,13 +270,11 @@ main
     color: #ff6719;
 }
 .main_ul #click_30:checked ~ label #main_30 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;
 }
 .main_ul #click_31:checked ~ label #main_31 {
-    background-color: rgb(224, 221, 221);
     border-bottom: 2px solid #ff6719;
     font-weight: 600;
     color: #ff6719;

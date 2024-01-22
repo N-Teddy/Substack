@@ -196,6 +196,10 @@ main {
 	border-radius: 6px;
 }
 
+.main_img img {
+	border-radius: 6px;
+}
+
 .main_head {
 	width: 280px;
 	height: 100%;

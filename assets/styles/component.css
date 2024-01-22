@@ -299,6 +299,7 @@ footer nav
 }
 
 .header_left_nav .drop_menu {
+	background-color: white;
 	display: none;
 	width: 230px;
 	padding: 8px;
@@ -509,11 +510,13 @@ start
 	color: white;
 	width: 255px;
 	height: 40px;
+	padding-left: 35px;
 	border-radius: 6px;
 	border: 1px solid white;
 }
 
-.search input ::placeholder {
+.search input::placeholder {
+	font-weight: 600;
 	font-size: 14px;
 	line-height: 40px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -521,7 +524,8 @@ start
 
 .search svg {
 	position: absolute;
-	left: 11px;
+	left: 10px;
+	top: 10px;
 }
 
 
