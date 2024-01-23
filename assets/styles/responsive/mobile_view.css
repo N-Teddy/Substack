@@ -7,6 +7,10 @@
     ==================================================================================
     */
 
+    header {
+        height: 600px;
+    }
+
     .header_left_nav {
         width: auto;
     }
@@ -17,6 +21,11 @@
 
     .header_left_nav label:first-of-type {
         display: inline-block;
+    }
+
+    .header_right_nav .btn {
+        height: 32px;
+        line-height: 32px;
     }
     
     .hero_btn_cont {
@@ -115,6 +124,10 @@
         width: 100%;
     }
 
+    .culture_text h3 p {
+        font-size: 32px;
+    }
+
     /* 
     ==================================================================================
     experience 
@@ -149,6 +162,10 @@
         width: 100%;
     }
 
+    .experience_main .cahuenga {
+        font-size: 32px;
+    }
+
     /* 
     ==================================================================================
     testimonial
@@ -157,6 +174,11 @@
 
     .testimony_cont {
         height: auto;
+    }
+
+    .testimony_cont h3 p {
+        font-size: 28px;
+        line-height: 35px;
     }
 
     /* 
@@ -175,6 +197,10 @@
         height: auto;
     }
 
+    .basics_head h2 p {
+        font-size: 44px;
+    }
+
     .basics_body {
         height: auto;
         gap: 70px;
@@ -183,6 +209,10 @@
     .basics_main {
         flex-direction: column;
         gap: 15px;
+    }
+
+    .basic_quest h4 p {
+        font-size: 28px;
     }
 
     .basic_quest,
@@ -292,6 +322,38 @@
     .experience_left {
         width: 100%;
         justify-content: center;
+    }
+
+}
+
+
+/*
+=================================================================================
+    max width of 410px
+=================================================================================
+*/
+
+
+@media only screen and (max-width: 410px)  {
+
+    .main_col2 {
+        width: 100%;
+    }
+
+}
+
+
+/*
+=================================================================================
+    max width of 450px
+=================================================================================
+*/
+
+
+@media only screen and (max-width: 450px) {
+
+    .experience_img {
+        width: 100%;
     }
 
 }

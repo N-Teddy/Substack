@@ -244,12 +244,9 @@ header nav
 }
 
 .header_right_nav {
-	width:
-		/*475px*/
-		auto;
-	height: 40px;
+	width: auto;
+	height: auto;
 	display: flex;
-	gap: 15px;
 	flex-shrink: 0;
 }
 
@@ -403,7 +400,6 @@ header
 	line-height: 40px;
 	background-color: #ff6719;
 	border-radius: 6px;
-	
 }
 
 .head_btn_2 {
@@ -413,6 +409,7 @@ header
 	line-height: 40px;
 	border-radius: 6px;
 	border: 1px solid white;
+	margin-left: 10px;
 }
 
 
