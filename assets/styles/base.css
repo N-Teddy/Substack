@@ -92,20 +92,9 @@ Box Model
 =================================================================================
 */
 
-
-
-
-
-/*
-=================================================================================
-=================================================================================
-  – main
-=================================================================================
-=================================================================================
-*/
-
-
-
+body {
+	background-color: white;
+}
 
 /*
 =================================================================================
@@ -114,6 +103,8 @@ Box Model
 =================================================================================
 =================================================================================
 */
+
+
 
 .culture {
 	width: 100%;
@@ -168,7 +159,7 @@ Box Model
 
 .culture_text {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	padding: 5px 0;
 }
 
@@ -184,8 +175,8 @@ Box Model
 */
 
 .experience {
+	background-color: rgb(238, 238, 238);
 	width: 100%;
-	height: 1109px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -193,6 +184,7 @@ Box Model
 
 .experience_cont {
 	width: 94%;
+	margin: 150px 0;
 	height: /*869px*/ auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -226,7 +218,7 @@ Box Model
 
 .experience_sub {
 	width: 470px;
-	height: 85.5%;
+	height: /*85.5%*/ auto;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
@@ -278,8 +270,8 @@ Box Model
 */
 
 .basics {
+	background-color: rgb(238, 238, 238);
 	width: 100%;
-	height: 1130.26px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -288,6 +280,7 @@ Box Model
 .basics_cont {
 	width: 960px;
 	height: 890.3px;
+	margin: 150px 0;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 80px;

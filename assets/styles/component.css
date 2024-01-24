@@ -309,6 +309,8 @@ footer nav
 }
 
 #drop_menu_2 {
+	scrollbar-color: rgb(234, 227, 227);
+	scrollbar-width: 15px;
 	height: 410px;
 	overflow-y: scroll;
 }
@@ -346,8 +348,13 @@ footer nav
 ==================================================================================
 */
 
+
+
 .experience_main input:not(:checked)~h5 {
 	display: none;
+}
+
+.experience_main {
 }
 
 .experience_main:has(:not(input:checked)) {
@@ -356,11 +363,13 @@ footer nav
 
 .experience_main:has(input:checked) {
 	height: auto;
+	transition: all 3s linear;
 }
 
 .experience_main:has(input:checked) svg {
 	transform: rotateX(180deg);
 }
+
 
 .experience input {
 	display: none;
@@ -599,6 +608,10 @@ start
  .mobile_btn_cont {
 	display: flex;
 	gap: 15px;
+ }
+
+ .mobile_btn {
+	background: #dbd9d9;
  }
 
  .mobile_burger{

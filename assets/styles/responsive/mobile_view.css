@@ -341,7 +341,7 @@
     }
 
     header {
-        height: 512px;
+        height: 100vh;
     }
 
     .header_main h1 p {
@@ -349,7 +349,7 @@
     }
 
     .header_btm {
-        height: 73%;
+        height: 80%;
     }
 
 }
