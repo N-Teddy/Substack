@@ -226,9 +226,10 @@ body {
 
 .experience_main {
 	width: 100%;
-	height: /*245.79px*/ auto;
+	height: 170px;
 	margin: 2px;
 	padding: 32px 0 32px 65px;
+	/* transition: all 3s linear; */
 }
 
 

@@ -118,6 +118,7 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
+	justify-content: center;
 	gap: 30px;
 }
 

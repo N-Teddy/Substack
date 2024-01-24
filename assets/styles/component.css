@@ -186,6 +186,10 @@ Box Model
 	overflow-y: hidden;
 }
 
+.main_ul {
+	scrollbar-width: none;
+}
+
 .main_ul::-webkit-scrollbar {
 	visibility: hidden;
 	display: none;
@@ -248,6 +252,7 @@ header nav
 	height: auto;
 	display: flex;
 	flex-shrink: 0;
+	gap: 10px;
 }
 
 /* 
@@ -309,11 +314,15 @@ footer nav
 }
 
 #drop_menu_2 {
-	scrollbar-color: rgb(234, 227, 227);
-	scrollbar-width: 15px;
+	scrollbar-width: thin !important;
 	height: 410px;
 	overflow-y: scroll;
+	scrollbar-color:  rgb(173, 169, 169) rgb(234, 227, 227);
 }
+scrollcorner {
+	-moz-appearance: none !important;
+	resize:both;
+ }
 
 /* styling the scroll bar */
 
@@ -354,16 +363,10 @@ footer nav
 	display: none;
 }
 
-.experience_main {
-}
-
-.experience_main:has(:not(input:checked)) {
-	height: 170px;
-}
 
 .experience_main:has(input:checked) {
-	height: auto;
-	transition: all 3s linear;
+	height: 236px;
+	transition: all 0.5s linear;
 }
 
 .experience_main:has(input:checked) svg {
@@ -418,7 +421,6 @@ header
 	line-height: 40px;
 	border-radius: 6px;
 	border: 1px solid white;
-	margin-left: 10px;
 }
 
 
