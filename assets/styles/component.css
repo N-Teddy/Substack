@@ -341,7 +341,7 @@ footer nav
 	border-radius: 6px;
 }
 
-.header_left_nav a:fo ~.drop_menu {
+.header_left_nav a:focus ~.drop_menu {
 	display: block;
 }
 
