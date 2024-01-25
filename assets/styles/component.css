@@ -281,6 +281,7 @@ footer nav
 */
 
 .header_left_nav .drop_click {
+	text-decoration: none;
 	display: inline-block;
 	font-size: 14px;
 	color: white;
@@ -294,10 +295,6 @@ footer nav
 	height: 40px;
 	padding: 0 5px;
 	position: relative;
-}
-
-.header_left_nav input {
-	display: none;
 }
 
 .header_left_nav .drop_menu {
@@ -319,10 +316,7 @@ footer nav
 	overflow-y: scroll;
 	scrollbar-color:  rgb(173, 169, 169) rgb(234, 227, 227);
 }
-scrollcorner {
-	-moz-appearance: none !important;
-	resize:both;
- }
+
 
 /* styling the scroll bar */
 
@@ -347,7 +341,7 @@ scrollcorner {
 	border-radius: 6px;
 }
 
-.header_left_nav input:checked~.drop_menu {
+.header_left_nav a:fo ~.drop_menu {
 	display: block;
 }
 
@@ -365,8 +359,8 @@ scrollcorner {
 
 
 .experience_main:has(input:checked) {
-	height: 236px;
-	transition: all 0.5s linear;
+	height: auto;
+	/* transition: all 0.5s linear; */
 }
 
 .experience_main:has(input:checked) svg {
@@ -601,10 +595,28 @@ start
 	transition: all 1s linear;
  }
 
+ @media only screen and (min-width: 651px)  {
+	
+	#min_width {
+		right: 100%;
+	}
+
+ }
+
+
+ #mobile_return {
+	display: none;
+ }
+
+ #mobile_nav {
+	display: none;
+ }
+
 
  .mobile_head {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
  }
 
  .mobile_btn_cont {
@@ -614,11 +626,7 @@ start
 
  .mobile_btn {
 	background: #dbd9d9;
- }
-
- .mobile_burger{
-	border: 1px solid #404040;
- }
+ } 
 
  .mobile_burger .sandwich {
 	background-color: #404040;

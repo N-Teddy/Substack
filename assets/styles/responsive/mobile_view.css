@@ -21,6 +21,7 @@
 
     .header_left_nav label:first-of-type {
         display: inline-block;
+        height: 21px;
     }
 
     .header_right_nav .btn {
