@@ -407,7 +407,7 @@ header
 */
 
 .head_btn_1 {
-	width: 108px;
+	width: max-content;
 	height: 40px;
 	line-height: 40px;
 	background-color: #ff6719;
