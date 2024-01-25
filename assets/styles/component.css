@@ -359,7 +359,7 @@ footer nav
 
 
 .experience_main:has(input:checked) {
-	height: auto;
+	height: max-content;
 	/* transition: all 0.5s linear; */
 }
 
