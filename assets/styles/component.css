@@ -360,6 +360,7 @@ footer nav
 
 .experience_main:has(input:checked) {
 	height: max-content;
+	padding-bottom: 10px;
 	/* transition: all 0.5s linear; */
 }
 
